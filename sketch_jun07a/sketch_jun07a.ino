@@ -1,3 +1,4 @@
+
 void setup() {
   Serial.begin(9600);
   Serial1.begin(38400);
@@ -10,4 +11,8 @@ void setup() {
   Serial3.println("Hello Serial 3");
 }
 
-void loop() {}
+void loop() {
+  while (1){
+    Serial3.println("Hello Serial 3");
+  }
+  }
