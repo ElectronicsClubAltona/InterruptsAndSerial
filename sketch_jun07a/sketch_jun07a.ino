@@ -14,5 +14,6 @@ void setup() {
 void loop() {
   while (1){
     Serial3.println("Hello Serial 3");
+    delay(2000);
   }
   }
